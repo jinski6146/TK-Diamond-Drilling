@@ -1,0 +1,309 @@
+/* at-rule: fonts */
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("fonts/CormorantGaramond-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Jost";
+    src: url("fonts/Jost-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+/* ********** Header and Footer ********** */
+/* Header */
+header {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+}
+nav ul a{
+    font-family: Jost, serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+header img {
+    width: 150px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    color: black;
+    background-color: rgb(165,154,145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 5;
+}
+footer div {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-family: Jost, serif;
+}
+footer div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+footer div ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+footer img {
+    width: 20px;
+    height: auto;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+footer hr {
+    width: 500px;
+    border: 0.5px solid black;
+}
+footer p {
+    font-family: Jost, serif;
+    font-size: 20px;
+    font-weight: light;
+}
+
+/* ********** Index ********** */
+/* Section 1 */
+.index #section1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.index #forest {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.index #logo {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Section 2 */
+.index #section2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.index #section2 div{
+    width: 50%;
+    height: auto;
+}
+.index #section2-left {
+    color: black;
+    background-color: rgb(184,178,169);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.index #section2-left h3 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 0;
+}
+.index #section2-left p {
+    width: 60%;
+    font-family: Jost, serif;
+    font-size: 20px;
+    font-weight: light;
+}
+.index #section2-left a {
+    width: fit-content;
+    height: auto;
+    font-family: Jost, serif;
+    font-size: 15px;
+    font-weight: light;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.index #section2-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section 3 */
+.index #section3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.index #services {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.index #services div {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index #services div img {
+    width: 460px;
+    height: 380px;
+    border: 1px solid white;
+}
+.index #section3 h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    font-weight: lighter;
+}
+.index #section3 h2 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.index #services div p {
+    font-family: Jost, serif;
+    font-size: 20px;
+    font-weight: light;
+    width: 460px;
+    height: auto;
+    text-align: center;
+}
+
+/* ********** About ********** */
+
+/* Main */
+.about main{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Section 1 */
+.about #section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about #section1 h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    font-weight: lighter;
+
+}
+.about #lake {
+    width: 1300px;
+    height: auto;
+}
+
+/* Section 2 */
+.about #section2 {
+    width: 630px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.about #section2 h2 {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.about #section2 hr {
+    width: 30px;
+    border: 1.5px solid white;
+}
+.about #section2 p {
+    font-family: Jost, serif;
+    font-size: 20px;
+    font-weight: light;
+}
+
+/* Section 3 */
+.about #section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about h2 {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.about #section3 hr {
+    width: 30px;
+    border: 1.5px solid white;
+}
+.about figcaption {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 300;
+}
+.about #section3 figure img {
+    width: 400px;
+    height: auto;
+    margin: 30px;
+}
+
