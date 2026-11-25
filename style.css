@@ -310,28 +310,67 @@ footer p {
 .contact main{
     background-color: black;
     color: white;
-}
-.contact #section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact .colored-box {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.contact #section1 {
+    background-color: rgb(165,154,145);
+}
+.contact #section2 {
+    background-color: rgb(51, 51, 51);
 }
 .contact h1 {
+    margin: 0;
     font-family: "Cormorant Garamond", serif;
     font-size: 60px;
     font-weight: lighter;
 }
+.contact .Cormorant-Garamond {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.contact .Jost {
+    font-family: Jost, serif;
+    font-size: 20px;
+    font-weight: light;
+}
+.contact #directory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .contact-person{
+    width: auto;
+    height: auto;
+    font-family: Jost, serif;
+    text-align: left;
+}
+.contact .contact-person a {
+    text-decoration: none;
+    color: inherit;
+}
 .contact #form-area {
-    background-color: rgb(51, 51, 51);
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .contact #form-area h2 {
-    font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     font-weight: lighter;
 }
@@ -393,4 +432,16 @@ footer p {
     font-family: Jost, serif;
     font-size: 20px;
     padding: 20px;
+}
+.contact #row2 button {
+    margin-top: 30px;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: light;
+    background-color: rbg(230, 223, 217);
+    color: black;
+    width: 250px;
+    height: 30px;
+    border: 0px none transparent;
+    border-radius: 0;
 }
